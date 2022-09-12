@@ -20,7 +20,7 @@ export const Navbar = () => {
             <ul 
             className='hidden md:flex'>
                 <li>Inicio</li>
-                <li>Estudios</li>
+                <li>Acerca de</li>
                 <li>Habilidades</li>
                 <li>Proyectos</li>
                 <li>Contactos</li>
