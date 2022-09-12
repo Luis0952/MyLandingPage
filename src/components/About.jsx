@@ -6,18 +6,20 @@ export const About = () => {
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div className='max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8 '>
                 <div>
-                    <p className='text-6xl font-bold inline border-b-4 border-blue-500'>Acerca de </p>
+                    <p className='text-6xl font-bold inline border-b-4 border-blue-500'>Acerca de mi: </p>
                 </div>
                 <div> </div>
             </div>
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                 <div className='sm:text-right text-4xl font-bold'>
-                    <p className='mt-5'> Hola, por favor conoce algo acerca de mi...</p>
+                    <p className='mt-5'> Hola, conoce algo acerca de mi...</p>
                 </div>
                 <div>
-                    <p>
-                        Soy un apasionado del desarrollo web, más enfocado en el Frontend.
-                        Soy graduado de la Universidad CESMAG.
+                    <p className='1xl'>
+                    Ingeniero de Sistemas con conocimientos en el Desarrollo Web en el área del Front-End, manejo de Java-
+                    Script, CSS, HTML, React-Js, TailwindCss;  Muy dinámico, pro-activo, con gran
+                    capacidad de trabajar en equipo, con muchas ganas de aprender, de adquirir nuevos conocimientos y de
+                    ampliar los que ya he adquirido, enfocándome en el Desarrollo Frontend.
                     </p>
                 </div>
 

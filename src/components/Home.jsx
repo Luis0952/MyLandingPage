@@ -16,8 +16,7 @@ export const Home = () => {
         </h2>
         <p className="pt-3 text-white text-1xl py-4 max-w-[700px]">
           {" "}
-          Me dedico al Desarrollo Web Frontend manejando lenguajes como Java
-          Script HTML, CSS, Tailwindcss
+          Me dedico al Desarrollo Web Frontend, egresado de la Universidad CESMAG.
         </p>
         <div>
           <button className=" group flex items-center border-2 rounded-full px-4 py-1 mt-3 text-white hover:bg-blue-600 hover:">

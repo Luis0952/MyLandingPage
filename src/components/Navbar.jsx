@@ -11,7 +11,7 @@ export const Navbar = () => {
 
   return (
     <div 
-    className='fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    className='fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#0f2c58] text-gray-300 shadow-md shadow-white rounded-b-lg'>
         <div>
             <img src={Logo_LR} alt="Image Java Script" style={{width:'100px'}}/>
         </div>
@@ -19,11 +19,11 @@ export const Navbar = () => {
         
             <ul 
             className='hidden md:flex'>
-                <li>Inicio</li>
-                <li>Acerca de</li>
-                <li>Habilidades</li>
-                <li>Proyectos</li>
-                <li>Contactos</li>
+                <li className='inline hover:border-b-2'>Inicio</li>
+                <li className='inline hover:border-b-2'>Acerca de</li>
+                <li className='inline hover:border-b-2'>Habilidades</li>
+                <li className='inline hover:border-b-2'>Proyectos</li>
+                <li className='inline hover:border-b-2'>Contactos</li>
             </ul>
         
 
