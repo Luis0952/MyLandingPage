@@ -1,4 +1,9 @@
 import React from 'react'
+import APP_CREACIONTAREAS from '../assets/APP_CREACIONTAREAS.png'
+import APP_TRELLO from '../assets/APP-TRELLO.png'
+import JUEGO_AHORCADO_TS from '../assets/JUEGO_AHORCADO_TS.png'
+import LISTADO_CONTACTOS_API from '../assets/LISTADO-CONTACTOS_API.png'
+import VALIDACION_FORMULARIO from '../assets/LISTADO-CONTACTOS_API.png'
 
 
 export const Proyectos = () => {
