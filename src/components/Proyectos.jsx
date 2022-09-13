@@ -1,9 +1,9 @@
 import React from 'react'
 import APP_CREACIONTAREAS from '../assets/APP_CREACIONTAREAS.png'
-import APP_TRELLO from '../assets/APP_TRELLO.png'
+import APP_SIMTRELLO from '../assets/APP_SIMTRELLO.jpg'
 import JUEGO_AHORCADO_TS from '../assets/JUEGO_AHORCADO_TS.png'
-import LISTADO_CONTACTOS_API from '../assets/LISTADO-CONTACTOS_API.png'
-import VALIDACION_FORMULARIO from '../assets/LISTADO-CONTACTOS_API.png'
+import LISTADO_CONTACTOS_API from '../assets/LISTADO_CONTACTOS_API.png'
+import VALIDACION_FORMULARIO from '../assets/VALIDACION_FORMULARIO.png'
 import FONDO_PARTICULAS from '../assets/FONDO_PARTICULAS.jpg'
 
 
@@ -18,31 +18,132 @@ export const Proyectos = () => {
 
         
             <div 
+                className="bg-blue-100 grid sm:grid-cols-2 md:grid-cols-3 gap-4 border-2 shadow-md shadow-black border-blue-900 rounded-lg p-5" >
+
+                    {/* Grid */}
+                <div 
                 style={{backgroundImage:`url(${APP_CREACIONTAREAS})`}}
-                className="grid sm:grid-cols-2 md:grid-cols-3 gap-4" >
-                <div className='shadow-lg shadow-gray-800 group container rounded-md flex justify-center items-center mx-auto content-div'
+                className='shadow-lg shadow-gray-800 group container rounded-md flex justify-center items-center mx-auto content-div'
                >
                     {/* Efectos Hover */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        
-                        <span className='text-2xl font-bold text-white tracking-wider'>
+                    <div className='opacity-0 group-hover:opacity-100 mt-5 ml-5'>                      
+                        <span className='text-1xl font-bold text-white tracking-wider '>
                         Aplicacion de Tareas en Java Script y React JS 
                         </span>
 
                         <div className='pt-8 text-center'>
                             <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <button 
+                                className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
 
                             <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Código</button>
+                                <button 
+                                className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Código</button>
                             </a>
                         </div>
                     </div>
                 </div>
-        </div>
-    </div>
-        
+
+                <div 
+                style={{backgroundImage:`url(${JUEGO_AHORCADO_TS})`}}
+                className='shadow-lg shadow-gray-800 group container rounded-md flex justify-center items-center mx-auto content-div'
+               >
+                    {/* Efectos Hover */}
+                    <div className='opacity-0 group-hover:opacity-100 mt-5 ml-5'>                      
+                        <span className='text-1xl font-bold text-white tracking-wider '>
+                        Aplicacion de Tareas en Java Script, React JS, Type Script y TailwindCss 
+                        </span>
+
+                        <div className='pt-8 text-center'>
+                            <a href="/">
+                                <button 
+                                className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+
+                            <a href="/">
+                                <button 
+                                className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Código</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>                
+                
+                {/*  */}
+                <div 
+                style={{backgroundImage:`url(${APP_SIMTRELLO})`}}
+                className='shadow-lg shadow-gray-800 group container rounded-md flex justify-center items-center mx-auto content-div'
+               >
+                    {/* Efectos Hover */}
+                    <div className='opacity-0 group-hover:opacity-100 mt-5 ml-5'>                      
+                        <span className='text-1xl font-bold text-white tracking-wider '>
+                        Aplicacion de Tareas en Java Script y CSS
+                        </span>
+
+                        <div className='pt-8 text-center'>
+                            <a href="/">
+                                <button 
+                                className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+
+                            <a href="/">
+                                <button 
+                                className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Código</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {/*  */}
+                <div 
+                style={{backgroundImage:`url(${LISTADO_CONTACTOS_API})`}}
+                className='shadow-lg shadow-gray-800 group container rounded-md flex justify-center items-center mx-auto content-div'
+               >
+                    {/* Efectos Hover */}
+                    <div className='opacity-0 group-hover:opacity-100 mt-5 ml-5'>                      
+                        <span className='text-1xl font-bold text-white tracking-wider '>
+                        Aplicacion de Tareas en Java Script y React JS 
+                        </span>
+
+                        <div className='pt-8 text-center'>
+                            <a href="/">
+                                <button 
+                                className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+
+                            <a href="/">
+                                <button 
+                                className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Código</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {/*  */}
+                <div 
+                style={{backgroundImage:`url(${VALIDACION_FORMULARIO})`}}
+                className='shadow-lg shadow-gray-800 group container rounded-md flex justify-center items-center mx-auto content-div'
+               >
+                    {/* Efectos Hover */}
+                    <div className='opacity-0 group-hover:opacity-100 mt-5 ml-5'>                      
+                        <span className='text-1xl font-bold text-white tracking-wider '>
+                        Aplicacion de Tareas en Java Script y React JS 
+                        </span>
+
+                        <div className='pt-8 text-center'>
+                            <a href="/">
+                                <button 
+                                className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+
+                            <a href="/">
+                                <button 
+                                className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Código</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {/*  */}
+            </div>
+        </div>       
 </div>
   )
 }
