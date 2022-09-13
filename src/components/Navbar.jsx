@@ -11,14 +11,14 @@ export const Navbar = () => {
 
   return (
     <div 
-    className='fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#0f2c58] text-gray-300 shadow-md shadow-white rounded-b-lg'>
+    className='fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#285ba7] text-gray-300 shadow-md shadow-white rounded-b-lg'>
         <div>
             <img src={Logo_LR} alt="Image Java Script" style={{width:'100px'}}/>
         </div>
 
         
             <ul 
-            className='hidden md:flex'>
+            className='hidden md:flex text-2xl'>
                 <li className='inline hover:border-b-2'>Inicio</li>
                 <li className='inline hover:border-b-2'>Acerca de</li>
                 <li className='inline hover:border-b-2'>Habilidades</li>
@@ -36,7 +36,7 @@ export const Navbar = () => {
         </div>
         {/* Menu Mobile */}
             <ul 
-            className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+            className={!nav ? 'hidden' : ' absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
                 <li className='py-6 text-4xl'>Inicio</li>
                 <li className='py-6 text-4xl'>Estudios</li>
                 <li className='py-6 text-4xl'>Habilidades</li>
@@ -45,12 +45,12 @@ export const Navbar = () => {
             </ul>
         {/* Redes Sociales */}
         <div 
-            className='hidden fixed flex-col top-[35%] left-0'>
+            className='fixed flex-col top-[35%] left-0'>
             <ul>
                 <li 
                 className='w-[160px] h-[60px] flex justify-between items-center'>
                     <a 
-                    className='rounded-lg flex justify-between items-center w-full text-gray-300 ml-[-100px] hover:ml-[-15px]  duration-300  bg-blue-500 p-2 font-bold'
+                    className='rounded-lg flex justify-between items-center w-full text-gray-300  ml-[-100px] hover:ml-[-15px]  duration-300  bg-blue-500 p-2 font-bold'
                     href="/">
                         Linkedin <FaLinkedin size={40}/>
                     </a>
@@ -59,7 +59,7 @@ export const Navbar = () => {
                 <li 
                 className='w-[160px] h-[60px] flex justify-between items-center'>
                     <a 
-                    className='flex justify-between items-center w-full text-gray-300 ml-[-100px] hover:ml-[-15px] duration-300 bg-blue-600 p-1 rounded-lg font-bold'
+                    className='flex justify-between items-center w-full text-gray-300  ml-[-100px] hover:ml-[-15px] duration-300 bg-blue-600 p-1 rounded-lg font-bold'
                     href="/">
                         Facebook <FaFacebook size={40}/>
                     </a>
@@ -68,7 +68,7 @@ export const Navbar = () => {
                 <li 
                     className='w-[160px] h-[60px] flex justify-between items-center'>
                     <a 
-                    className='flex justify-between items-center w-full text-gray-300 ml-[-100px] hover:ml-[-15px] duration-300 bg-blue-1000 p-1 rounded-lg font-bold border-2'
+                    className='flex justify-between items-center w-full text-gray-300  ml-[-100px] hover:ml-[-15px] duration-300 bg-blue-1000 p-1 rounded-lg font-bold border-2'
                     href="/">
                         GitHub <FaGithub size={40}/>
                     </a>
@@ -77,7 +77,7 @@ export const Navbar = () => {
                 <li 
                     className='w-[160px] h-[60px] flex justify-between items-center'>
                     <a 
-                    className='flex justify-between items-center w-full text-gray-300 ml-[-100px] hover:ml-[-15px] duration-300 bg-blue-800 p-1 rounded-lg font-bold'
+                    className='flex justify-between items-center w-full text-gray-300  ml-[-100px] hover:ml-[-15px] duration-300 bg-blue-800 p-1 rounded-lg font-bold'
                     href="/">
                         Correo <HiOutlineMail size={40}/>
                     </a>
@@ -86,7 +86,7 @@ export const Navbar = () => {
                 <li 
                     className='w-[160px] h-[60px] flex justify-between items-center'>
                     <a 
-                    className='flex justify-between items-center w-full text-gray-300 ml-[-100px] hover:ml-[-15px] duration-300 bg-blue-900 p-1 rounded-lg font-bold'
+                    className='flex justify-between items-center w-full text-gray-300  ml-[-100px] hover:ml-[-15px] duration-300 bg-blue-900 p-1 rounded-lg font-bold'
                     href="/">
                         Resumen <BsFillPersonLinesFill size={40}/>
                     </a>
