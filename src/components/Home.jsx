@@ -1,9 +1,12 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import ReactPlayer from "react-player";
+import Piso from '../assets/Piso.mp4'
 
 export const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#0a192f]">
+    <div name="home" className="w-full h-screen bg-[#0a192f]" >
+  
       {/* Contenido */}
       <div className="max-w-[1000px] mx-auto px-20 md:px-10 flex flex-col justify-center h-full">
         <p className="text-blue-100 text-2xl">Hola, mi Nombre es </p>

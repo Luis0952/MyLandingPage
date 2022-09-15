@@ -3,7 +3,9 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo_LR from '../assets/Logo_LR.png'
-
+import {Link} from 'react-scroll'
+import Piso from '../assets/Piso.mp4'
+import ReactPlayer from 'react-player'
 
 export const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -19,11 +21,31 @@ export const Navbar = () => {
         
             <ul 
             className='hidden md:flex text-2xl'>
-                <li className='inline hover:border-b-2'>Inicio</li>
-                <li className='inline hover:border-b-2'>Acerca de</li>
-                <li className='inline hover:border-b-2'>Habilidades</li>
-                <li className='inline hover:border-b-2'>Proyectos</li>
-                <li className='inline hover:border-b-2'>Contactos</li>
+                <li className='inline hover:border-b-2'>
+                <Link to="home" smooth={true} duration={500}>
+                inicio
+                </Link>
+                </li>
+                <li className='inline hover:border-b-2'>
+                <Link to="about" smooth={true} duration={500}>
+                Acerca de
+                </Link>
+                </li>
+                <li className='inline hover:border-b-2'>
+                <Link to="habilidades" smooth={true} duration={500}>
+                Habilidades o Skills
+                </Link>
+                </li>
+                <li className='inline hover:border-b-2'>
+                <Link to="proyectos" smooth={true} duration={500}>
+                Proyectos
+                </Link>
+                </li>
+                <li className='inline hover:border-b-2'>
+                <Link to="contacto" smooth={true} duration={500}>
+                Contacto
+                </Link>
+                </li>
             </ul>
         
 
@@ -37,11 +59,21 @@ export const Navbar = () => {
         {/* Menu Mobile */}
             <ul 
             className={!nav ? 'hidden' : ' absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-                <li className='py-6 text-4xl'>Inicio</li>
-                <li className='py-6 text-4xl'>Estudios</li>
-                <li className='py-6 text-4xl'>Habilidades</li>
-                <li className='py-6 text-4xl'>Proyectos</li>
-                <li className='py-6 text-4xl'>Contactos</li>
+                <li className='py-6 text-4xl'><Link onClick={handleClick} to="home" smooth={true} duration={500}>
+                inicio
+                </Link></li>
+                <li className='py-6 text-4xl'><Link onClick={handleClick} to="about" smooth={true} duration={500}>
+                Acerca de
+                </Link></li>
+                <li className='py-6 text-4xl'><Link onClick={handleClick} to="habilidades" smooth={true} duration={500}>
+                Habilidades
+                </Link></li>
+                <li className='py-6 text-4xl'><Link onClick={handleClick} to="proyectos" smooth={true} duration={500}>
+                Proyectos
+                </Link></li>
+                <li className='py-6 text-4xl'> <Link onClick={handleClick} to="contacto" smooth={true} duration={500}>
+                Contacto
+                </Link></li>
             </ul>
         {/* Redes Sociales */}
         <div 
