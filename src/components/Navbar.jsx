@@ -83,7 +83,7 @@ export const Navbar = () => {
                 className='w-[160px] h-[60px] flex justify-between items-center'>
                     <a 
                     className='rounded-lg flex justify-between items-center w-full text-gray-300  ml-[-100px] hover:ml-[-15px]  duration-300  bg-blue-500 p-2 font-bold'
-                    href="/">
+                    href="https://www.linkedin.com/in/luis-eduardo-rosales-80070724b" target="_blank">
                         Linkedin <FaLinkedin size={40}/>
                     </a>
                 </li>
@@ -92,8 +92,8 @@ export const Navbar = () => {
                 className='w-[160px] h-[60px] flex justify-between items-center'>
                     <a 
                     className='flex justify-between items-center w-full text-gray-300  ml-[-100px] hover:ml-[-15px] duration-300 bg-blue-600 p-1 rounded-lg font-bold'
-                    href="/">
-                        Facebook <FaFacebook size={40}/>
+                    href="https://es-la.facebook.com/" target="_blank">
+                        Facebook <FaFacebook size={40} />
                     </a>
                 </li>
 
@@ -101,8 +101,8 @@ export const Navbar = () => {
                     className='w-[160px] h-[60px] flex justify-between items-center'>
                     <a 
                     className='flex justify-between items-center w-full text-gray-300  ml-[-100px] hover:ml-[-15px] duration-300 bg-blue-1000 p-1 rounded-lg font-bold border-2'
-                    href="/">
-                        GitHub <FaGithub size={40}/>
+                    href="https://github.com/Luis0952" target="_blank">
+                        GitHub <FaGithub size={40} />
                     </a>
                 </li>
 
@@ -110,7 +110,7 @@ export const Navbar = () => {
                     className='w-[160px] h-[60px] flex justify-between items-center'>
                     <a 
                     className='flex justify-between items-center w-full text-gray-300  ml-[-100px] hover:ml-[-15px] duration-300 bg-blue-800 p-1 rounded-lg font-bold'
-                    href="/">
+                    href="https://www.gmail.com/" target="_blank">
                         Correo <HiOutlineMail size={40}/>
                     </a>
                 </li>

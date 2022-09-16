@@ -4,6 +4,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
+input[type = "email"]:focus ~ .input-text{
+  @apply text-blue-500 transform -translate-y-10 -translate-x-9 scale-75;
+}
+
+input[type = "text"]:focus ~ .input-text{
+  @apply text-blue-500 transform -translate-y-14 -translate-x-9 scale-75;
+}
+
 @layer base {
   /* body {
       @apply font-[Raleway];

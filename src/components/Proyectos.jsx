@@ -48,7 +48,7 @@ export const Proyectos = () => {
                   height="200px "
                 />
                 <div className="pt-0 text-center">
-                <a href="https://github.com/Luis0952/App-ToDo" a>
+                <a href="https://github.com/Luis0952/App-ToDo" >
 
                   <button className=" text-center rounded-lg px-1 mt-1 bg-blue-700 text-white text-md w-full">
                     App To-Do-Ir al Código{" "}
@@ -144,7 +144,7 @@ export const Proyectos = () => {
                     target="_blank"
                   >
                     <button className=" text-center rounded-lg px-1 mt-1 bg-blue-700 text-white text-md w-full">
-                      App To-Do-Ir al Código{" "}
+                      App Contactos-Ir al Código{" "}
                     </button>
                   </a>
                 </div>
@@ -176,7 +176,7 @@ export const Proyectos = () => {
                     target="_blank"
                   >
                     <button className=" text-center rounded-lg px-1 mt-1 bg-blue-700 text-white text-md w-full">
-                      App To-Do-Ir al Código{" "}
+                      App Formulario-Ir al Código{" "}
                     </button>
                   </a>
                 </div>
