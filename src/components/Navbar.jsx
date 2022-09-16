@@ -4,7 +4,7 @@ import { HiOutlineMail } from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo_LR from '../assets/Logo_LR.png'
 import {Link} from 'react-scroll'
-import Piso from '../assets/Piso.mp4'
+import Piso from '../assets/videos/Piso.mp4'
 import ReactPlayer from 'react-player'
 
 export const Navbar = () => {
@@ -13,7 +13,7 @@ export const Navbar = () => {
 
   return (
     <div 
-    className='fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#285ba7] text-gray-300 shadow-md shadow-white rounded-b-lg'>
+    className='fixed w-full h-[100px] flex justify-between items-center px-4 bg-blue-950 text-gray-300 shadow-md shadow-white rounded-b-lg'>
         <div>
             <img src={Logo_LR} alt="Image Java Script" style={{width:'100px'}}/>
         </div>
@@ -33,7 +33,7 @@ export const Navbar = () => {
                 </li>
                 <li className='inline hover:border-b-2'>
                 <Link to="habilidades" smooth={true} duration={500}>
-                Habilidades o Skills
+                Habilidades
                 </Link>
                 </li>
                 <li className='inline hover:border-b-2'>
