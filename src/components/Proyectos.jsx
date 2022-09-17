@@ -4,7 +4,7 @@ import APP_SIMTRELLO from "../assets/APP_SIMTRELLO.jpg";
 import JUEGO_AHORCADO_TS from "../assets/JUEGO_AHORCADO_TS.png";
 import LISTADO_CONTACTOS_API from "../assets/LISTADO_CONTACTOS_API.png";
 import VALIDACION_FORMULARIO from "../assets/VALIDACION_FORMULARIO.png";
-import FONDO_PARTICULAS from "../assets/FONDO_PARTICULAS.jpg";
+import FONDO_PARTICULAS from "../assets/LOGOS/FONDO_PARTICULAS.jpg";
 import ReactPlayer from "react-player";
 import Piso from "../assets/videos/Piso.mp4";
 import Video_Formulario from "../assets/videos/DEMO_FORMULARIO_VALIDACION.mp4";
