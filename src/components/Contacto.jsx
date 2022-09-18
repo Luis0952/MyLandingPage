@@ -18,7 +18,7 @@ export const Contacto = () => {
           </p>
           <p className="text-2xl text-center font-semibold py-3 mt-2 text-blue-900">
             Registrate en el siguiente formulario o enviame un correo
-            electrónico{" "}
+            electrónico al <span className="font-bold text-blue-600">luchorosalesc6@gmail.com</span> {" "}
           </p>
         </div>
 
