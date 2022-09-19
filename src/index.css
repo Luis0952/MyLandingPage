@@ -26,8 +26,8 @@ input[type = "text"]:focus ~ .input-text{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 250px;
-  width: 420px;
+  height: 200px;
+  width: 250px;
 }
 
 .content-div:hover {

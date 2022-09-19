@@ -19,25 +19,26 @@ export const Proyectos = () => {
       name="proyectos"
       className="w-full md:h-screen text-gray-300 bg-[#0f2c58]"
     >
-      <div className="max-w-[700px] mx-auto flex flex-col justify-center items-center w-full h-full ">
-        <div className="pb-2">
-          <p className="text-6xl font-bold inline border-b-4 text-gray-300 border-blue-600">
+      <div className="md:max-w-[700px] md:mx-auto flex flex-col justify-center items-center md:w-full md:h-screen">
+        <div className="">
+          <p className="md:text-4xl font-bold inline border-b-4 text-gray-300 border-blue-600">
             {" "}
             Mis Proyectos
           </p>
-          <p className="py-6">Estos son mis proyectos más recientes..</p>
+          {/* <p className="py-6">Estos son mis proyectos más recientes..</p> */}
         </div>
 
-        <div className="m-0  bg-blue-100 grid sm:grid-cols-2 md:grid-cols-3 gap-4 border-2 shadow-md shadow-black border-blue-900 rounded-lg  w-max p-2">
+        <div className="mt-5  bg-blue-100 grid sm:grid-cols-2 md:grid-cols-3 gap-4 border-2 shadow-md shadow-black border-blue-900 
+                        rounded-lg w-max h-auto  p-2">
+                          {/* TARJETAS */}
           <div className="bg-black rounded-lg">
             <h2 className="text-center text-blue-500 font-bold p-1 rounded-lg">
               Aplicación realizada en JS, HTML, TailwindCss y ReactJS
             </h2>
-
-            {/* Grid */}
             <div
               style={{ backgroundImage: `url(${APP_CREACIONTAREAS})` }}
-              className="mt-0 m-5 mb-2 shadow-lg shadow-gray-800 group container rounded-md flex justify-center items-center mx-auto content-div"
+              className="md:mt-0 md:m-5 md:mb-2 shadow-lg shadow-gray-800 group container rounded-md flex 
+              justify-center items-center mx-auto md:content-div"
             >
               {/* Efectos Hover */}
               <div className="opacity-0 group-hover:opacity-100  ml-1 mb-0">
@@ -68,7 +69,8 @@ export const Proyectos = () => {
             {/* Grid */}
             <div
               style={{ backgroundImage: `url(${APP_SIMTRELLO})` }}
-              className="mt-0 m-5 mb-2 shadow-lg shadow-gray-800 group container rounded-md flex justify-center items-center mx-auto content-div"
+              className="mt-0 m-5 mb-2 shadow-lg shadow-gray-800 group container rounded-md flex 
+              justify-center items-center mx-auto content-div"
             >
               {/* Efectos Hover */}
               <div className="opacity-0 group-hover:opacity-100  ml-1 mb-0">

@@ -11,13 +11,13 @@ export const Home = () => {
     <div name="home" className=" flex h-screen bg-[#0a192f]">
       {/* Contenido */}
 
-      <div className="w-2/3">
+     
 
-        <div className=" max-w-[1000px] mx-auto px-20 md:px-40 flex flex-col 
+        <div className=" max-w-[800px] mx-auto px-50 md:px-40 px-40 flex flex-col 
         justify-center h-full " >
 
           <p className="text-blue-100 text-2xl">Hola, mi Nombre es </p>
-          <h1 className="text-4xl sm:text-8xl font-bold text-gray-100">
+          <h1 className="md:text-2xl sm:text-4xl font-bold text-gray-100">
             {" "}
             Luis Rosales{" "}
           </h1>
@@ -43,12 +43,9 @@ export const Home = () => {
             </button>
           </div>
         </div>
-      </div>
+    
 
-      <div className="w-3/3 bg-blue-950 pt-40 pr-20">
-        <img src={HTML_CSS_JS} alt="img_particulas" className=" max-w-fit pr-20" />
-        
-      </div>
+      
 
     </div>
 

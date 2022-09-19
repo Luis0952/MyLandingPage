@@ -9,14 +9,15 @@ export const Contacto = () => {
       <form
         method="POST"
         action="https://getform.io/f/3f003185-1dec-4d8a-bcaf-9f0d9bcfccf7"
-        className="rounded-lg shadow-lg shadow-blue-400 flex flex-col max-w-[600px] w-full border-2 border-blue-300 p-5 bg-blue-100"
+        className=" md:mt-[10px] mt-[100px] md:mb-[30px] rounded-lg shadow-lg shadow-blue-400 flex flex-col max-w-[500px] md:h-screen h-[450px] border-2 
+        border-blue-300 p-5 bg-blue-100"
       >
         <div className="pb-8 ">
-          <p className=" text-5xl font-bold inline border-b-4 border-blue-700 text-blue-700 m-40">
+          <p className=" text-5xl font-bold inline border-b-4 border-blue-700 text-blue-700 ">
             <span className="bg-blue-700 text-white px-1 text-5xl ">C</span>
             ontacto{" "}
           </p>
-          <p className="text-2xl text-center font-semibold py-3 mt-2 text-blue-900">
+          <p className="md:text-2xl text-1xl text-center font-semibold md:py-2 py-1 mt-2 text-blue-900">
             Registrate en el siguiente formulario o enviame un correo
             electrónico al <span className="font-bold text-blue-600">luchorosalesc6@gmail.com</span> {" "}
           </p>
@@ -24,8 +25,8 @@ export const Contacto = () => {
 
         <label className="relative ">
           <input
-            className="my-2 p-4 bg-white border-b-4 border-blue-600 rounded-lg text-black capitalize 
-            required w-full outline-none  border-opacity-50 focus:border-blue-500 focus:text-black"
+            className="my-1 mt-0 md:p-4  p-1 bg-white border-b-4 border-blue-600 rounded-lg text-black capitalize 
+            required w-full md:h-full h-10 outline-none  border-opacity-50 focus:border-blue-500 focus:text-black"
             type="text"
             placeholder="Nombre"
             name="nombre"
@@ -36,7 +37,7 @@ export const Contacto = () => {
 
         <label className="relative ">
           <input
-            className="my-2 p-4 mt-6 bg-white border-b-4  border-blue-600 rounded-lg text-black capitalize required 
+            className="my-1 mt-1 md:p-4  p-1 bg-white border-b-4  border-blue-600 rounded-lg text-black capitalize required 
             outline-none  border-opacity-50 focus:border-blue-500 focus:text-black w-full"
             type="email"
             placeholder="Correo"
